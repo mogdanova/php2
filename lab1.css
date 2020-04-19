@@ -1,0 +1,126 @@
+.form-style-1 {
+	
+	
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+    margin:0px;
+    min-width: 300px;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	border: 1px solid #af24ca;
+}
+
+
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.rest {
+	background: rgb(85, 20, 160);
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button] {
+	background: rgb(139, 16, 84);
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.rest:hover{
+	background: rgb(124, 27, 153);
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: rgb(98, 27, 156);
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:rgb(16, 161, 161);
+}
+table {
+border-collapse: collapse;
+border: 2px solid #1994aa;
+text-align: center;
+width: 100%;
+}
+table th {
+	background: #8315cc;
+	height: 40px;
+}
+table td {
+height: 30px;
+border:1px solid #18acb1;
+}
+
+table tr:nth-child(2n){
+	background: rgba(167, 33, 33, 0.555);
+}
+
+td a {
+	color:rgb(3, 41, 146);
+	font-weight: bold;
+	cursor: pointer;
+}
+td a:hover {
+	text-decoration:underline;
+}
+
+.title {
+	text-align: center;
+}
+header{
+	background-color:rgb(76, 23, 199);
+}
+footer{
+	background-color:rgb(15, 12, 24);
+}
+
+.sub-menu:hover{
+	color:white;
+}
